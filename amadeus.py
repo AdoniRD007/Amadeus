@@ -7,7 +7,7 @@ import openai
 #OpenAI API key
 aienv = os.getenv('OPENAI_KEY')
 if aienv == None:
-    openai.api_key = "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"
+    openai.api_key = "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"
 else:
     openai.api_key = aienv
 print(aienv)
